@@ -7,7 +7,7 @@ from kafka.admin import NewTopic
 import json
 from kafka.structs import TopicPartition
 
-
+passwd = '123456'
 def singleton(cls):
     _instance = {}
 
